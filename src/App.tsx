@@ -157,7 +157,7 @@ const ToTinhPage: React.FC = () => {
                 animation: 'fadeIn 0.5s',
               }}
             >
-              Hổng ấy em cho anh 1 cơ hội, để anh đi cùng em nha, anh thật sự hong biết nên nói sao nhưng anh rất muốn bên cạnh em rất nhiều, hong ấy mình quen nhau nha&nbsp;<span style={{ display: 'inline' }}><CiHeart /></span>
+              Hổng ấy em cho anh 1 cơ hội, để anh đi cùng em nha, anh thật sự hong biết nên nói sao nhưng anh rất muốn bên cạnh em rất nhiều&nbsp;<span style={{ display: 'inline' }}><CiHeart /></span>
             </p>
             {currentStep === 3 && (
               <button
