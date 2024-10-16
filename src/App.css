@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+/* Đặt phần tử chính có thể cuộn bên trong */
+.scrollable-content {
+  overflow-y: auto; /* Cho phép cuộn theo chiều dọc */
+  height: 100%; /* Đảm bảo phần tử này chiếm hết chiều cao của bố mẹ */
+}
+
+/* Đặt phần tử cuộn cho nội dung bên trái */
+.left-panel {
+  flex: 1;
+  padding: 10px;
+  border-right: 1px solid #ccc;
+  overflow-y: auto; /* Cho phép cuộn theo chiều dọc */
+  height: 100vh; /* Chiếm toàn bộ chiều cao của viewport */
+}
+
+/* Đặt phần tử cuộn cho nội dung bên phải */
+.right-panel {
+  flex: 4;
+  padding: 10px;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  overflow-y: auto; /* Cho phép cuộn theo chiều dọc */
+  height: 100vh; /* Chiếm toàn bộ chiều cao của viewport */
+}
+
